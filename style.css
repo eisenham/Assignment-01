@@ -1,10 +1,26 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 
 h1{
     font-size: 50px;
+    font-weight: 700;
     
+}
+
+h1.hello{
+    font-size: 50px;
+    line-height: .5;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+p{
+    color: dimgray;
 }
 
 .name-highlight{
@@ -12,13 +28,125 @@ h1{
 }
 
 .half-width{
-    width: 40%;
+    width: 30%;
     float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+    margin: 8%;
+    padding: 2%;
 }
 
 .half-width img{
     width: 100%;
+    
 }
+
+
+ .top-banner{
+     background-image: url(images/header-bg.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ section{
+     height: 750px;
+     background-size: 100%;
+ }
+
+
+
+ .link-button{
+     text-decoration: none;
+     background-image: linear-gradient(45deg,mediumvioletred, deeppink);
+     color: white;
+     padding: 10px 20px;
+     border-radius: 5px;
+    
+     
+ }
+ 
+ .biography-area{
+     background-image: url(images/biography-bg.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 0px;
+
+ }
+
+
+.clients{
+    text-align: center;
+}
+
+.client-info{
+    padding-bottom: 5px;
+    padding-top: 15px;
+    font-weight: lighter;
+    
+}
+
+.client-info-line{
+    font-size: 20px;
+    line-height: .5;
+}
+
+.opinion{
+    padding-bottom: 20px;
+    color: gray;
+}
+
+.contact-button{
+    width:50%;
+    margin:auto;
+}
+
+.contact-link-button{
+    text-decoration:none;
+    background-image: linear-gradient(20deg,hotpink,deeppink);
+    padding:10px 20px;
+    border-radius:10px;
+    color:white;
+    font-weight:500;
+    margin-top:5%;
+    display:block;
+}
+
+.remarks{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 1700px 700px;
+}
+
+.footer{
+    text-align: center;
+    color: gray;
+    font-weight: lighter;
+    padding-bottom: 30px;
+}
+
+.work-area{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: 1700px 700px;
+}
+
+.work-box{
+    padding-top: 50px;
+}
+
+.work-header{
+    text-align: center;
+}
+
+.work-img{
+    padding-top: 50px;
+    margin-left: 4.4%;
+}
+
+.work img{
+    width: 30%;
+    float: left;
+    padding-right: .8%;
+    padding-left: .8%;
+}
+
+
 
